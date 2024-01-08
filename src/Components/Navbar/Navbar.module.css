@@ -1,0 +1,95 @@
+.Navbar{
+    min-height: 100vh;
+    width:300px;
+    background: #1E2640;
+    color: #FFFFFF95;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+.nav_title{
+    display: flex;
+    margin-top: 3px;
+}
+
+.logo_svg{
+    margin: 8px;
+}
+
+.logo_address{
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    margin-left: 10px;
+}
+
+
+.dropdown{
+    /* margin-top: 35px; */
+    position: relative;
+    left: 90px;
+    top:20px;
+}
+.logo_address .name{
+    color:#FFFFFF ;
+    font-size: 22px;
+}
+.logo_address .store_link{
+    color: #FFFFFF90;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.nav_items{
+    margin-top: 15px;
+}
+
+.nav_items ul li{
+    display: flex;
+    /* margin: 20px; */
+    padding: 12px;
+    /* margin-top: .8px; */
+}
+
+.nav_items ul li div{
+    margin-right: 10px;
+    
+}
+
+.navbar_clicked{
+    background-color: #FFFFFF1A;
+    /* #FFFFFF1A */
+    /* padding: 8px; */
+    color: #FFFFFF;
+}
+
+.bottom{
+    background: #353C53;
+    margin:10px ;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.bottom_wallet_svg{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.bottom_wallet_detail{
+    margin-left: 1rem;
+
+}
+
+.bottom_wallet_detail p:last-child{
+    color: #FFFFFF;
+}
