@@ -7,11 +7,13 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar/>
-      <Header/>
-      <Body/>
-      
-{/* 
+      <Navbar />
+      <div className='container'>
+        <Header />
+        <Body />
+      </div>
+
+      {/* 
 Navbar
 header
 body 

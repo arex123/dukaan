@@ -1,0 +1,70 @@
+.header{
+    background-color: white;
+    border-bottom: 1px solid grey;
+    height: 6rem;
+    /* min-width:100% ; */
+    display: flex;
+    align-items: center;
+}
+.leftmost{
+    display: flex;
+    font-size: 16px;
+    width: 33%;
+    align-items: center;
+    padding: 40px;
+}
+
+.question_svg{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    /* font-weight: 400; */
+    cursor: pointer;
+}
+
+.leftmost h1{
+    font-weight: 600;
+}
+
+.leftmost p{
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.search_container{
+    width: 38%;
+    display: flex;
+    background: #F2F2F2;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 65%;
+    cursor: text;
+}
+
+.search_container div{
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.search_container input{
+    width: 100%;
+    border: none;
+    background: #F2F2F2;
+    font-size: 22px;
+    height: 100%;
+
+}
+
+.search_container input:focus{
+    outline: none;
+}
+
+.rightmost{
+    width: 33%;
+    cursor: pointer;
+}
+
+.rightmost{
+    display: flex;
+    justify-content: flex-end;
+}
