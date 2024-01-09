@@ -9,7 +9,7 @@ const Header = () => {
     <div className={style.header}>
 
       <div className={style.leftmost}>
-        <h1>Payouts</h1>
+        <h2>Payouts</h2>
         <div className={style.question_svg}>
           <svg width="20" height="20" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M7.78076 10.1799C7.78076 10.6093 7.43261 10.9575 7.00315 10.9575C6.57369 10.9575 6.22554 10.6093 6.22554 10.1799C6.22554 9.75039 6.57369 9.40225 7.00315 9.40225C7.43261 9.40225 7.78076 9.75039 7.78076 10.1799Z" fill="#4D4D4D" />

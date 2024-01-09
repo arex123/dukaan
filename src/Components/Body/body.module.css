@@ -1,0 +1,35 @@
+.body{
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #FBFBFA;
+}
+.body_container{
+   /* border: 1px solid red; */
+
+}
+
+.card_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightside{
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rightside p{
+    margin-right: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+

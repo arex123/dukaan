@@ -62,9 +62,7 @@
 .rightmost{
     width: 33%;
     cursor: pointer;
-}
-
-.rightmost{
     display: flex;
     justify-content: flex-end;
+    margin-right: 20px;
 }
