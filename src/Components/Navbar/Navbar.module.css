@@ -1,10 +1,10 @@
 .Navbar{
     /* box-sizing: content-box; */
     min-height: 100vh;
-    width:350px;
+    width:280px;
     background: #1E2640;
     color: #FFFFFF99;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@
 .logo_address{
     display: flex;
     flex-direction: column;
-    margin-top:15px;
+    margin-top:11px;
     margin-left: 10px;
 }
 
@@ -33,16 +33,16 @@
 .dropdown{
     /* margin-top: 35px; */
     position: relative;
-    left: 90px;
+    left: 60px;
     top:20px;
 }
 .logo_address .name{
     color:#FFFFFF ;
-    font-size: 22px;
+    font-size: 16px;
 }
 .logo_address .store_link{
     color: #FFFFFF90;
-    font-size: 18px;
+    font-size: 13px;
     margin-top: 5px;
 }
 
@@ -56,6 +56,7 @@
     /* margin: 20px; */
     padding: 12px;
     /* margin-top: .8px; */
+    transition:all .3s;
 }
 
 .nav_items ul li div{
@@ -65,34 +66,44 @@
 
 .navbar_clicked{
     background-color: #FFFFFF1A;
-    /* #FFFFFF1A */
-    /* padding: 8px; */
     color: #FFFFFF;
 }
+.nav_items ul li:hover{
+    cursor: pointer;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF;
+}
+
+
 
 .bottom{
     background: #353C53;
     margin:10px ;
     display: flex;
-    padding:5px 15px;
+    padding:8px 12px;
     align-items: center;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 .bottom_wallet_svg{
     background: rgba(255, 255, 255, 0.1);
-    padding: 10px 10px 5px 10px;
+    padding: 6px 6px 3px 6px;
     border-radius: 8px;
 }
 
 .bottom_wallet_detail{
     margin-left: 1rem;
-
 }
 
 .bottom_wallet_detail p{
-    margin: 5px;
+    /* margin: 1px; */
+}
+.bottom_wallet_detail p:first-child{
+    margin-bottom: 5px;
+}
+.bottom_wallet_detail p:last-child{
+    font-size: 16px;
 }
 
 .bottom_wallet_detail p:last-child{

@@ -4,10 +4,7 @@
     padding: 40px;
     background-color: #FBFBFA;
 }
-.body_container{
-   /* border: 1px solid red; */
 
-}
 
 h2{
     font-weight: 540;
@@ -24,32 +21,32 @@ h2{
 .rightside{
     display: flex;
     /* border: 1px solid grey; */
-    border: 1.5px solid #cac8c8;
-    padding: 10px;
+    border: 1px solid #cac8c8;
+    padding: 5px;
     border-radius: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .rightside p{
-    margin-right: 10px;
-    font-size: 18px;
+    margin-right: 8px;
+    font-size: 15px;
     color: #4D4D4D;
     
 }
 
 .rightside div{
-    margin-top: 2.5px;
+    margin-top: 2px;
 }
 .cards{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .transaction_section{
     /* background-color: aquamarine; */
-    margin-top: 50px;
+    margin-top: 40px;
     box-shadow: 0px 2px 6px 0px #1A181E0A;
 
 }
@@ -68,7 +65,7 @@ h2{
     padding:10px 20px 10px 20px ;
     border-radius: 20px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .txn_btns p:first-child{
@@ -86,27 +83,28 @@ h2{
 .txn_list_cont{
     background-color: #FFFFFF;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
 .search_container{
-    width: 19%;
+    width: 22%;
     display: flex;
     /* background: #F2F2F2; */
     align-items: center;
-    border-radius: 10px;
+    border-radius: 6px;
     overflow: hidden;
-    height: 65%;
+    height: 95%;
     cursor: text;
-    border: 1.5px solid #cac8c8;
-    padding: 15px 20px 15px 20px;
+    border: 1px solid #cac8c8;
+    opacity: .8;
+    padding: 10px 10px 10px 20px;
     
 }
 
 .search_container div{
     /* margin-left: 25px; */
-    margin-right: 15px;
+    margin-right: 10px;
     /* margin-top: 5px; */
     position: relative;
     top: 2px;
@@ -115,7 +113,7 @@ h2{
     width: 100%;
     border: none;
     /* background: #F2F2F2; */
-    font-size: 18px;
+    font-size: 15px;
     height: 100%;
 
 }
@@ -137,11 +135,11 @@ h2{
 .right_side{
     display: flex;
     /* border: 1px solid #D9D9D9; */
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .sort{
-    border: 1.5px solid #cac8c8;
+    border: 1px solid #cac8c8;
     display: flex;
     margin-right: 20px;
     align-items: center;
@@ -159,20 +157,20 @@ h2{
 
 .sort div{
     display: inline;
-    margin: 10px;
+    margin: 6px;
 
     margin-left:8px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .download{
     border-radius: 5px;
-    border: 1.5px solid #cac8c8;
+    border: 1px solid #cac8c8;
     display: flex;
     align-items: center;
-    padding: 8px;
+    padding: 5px;
     /* height: 36px; */
-    width: 36px;
+    width: 30px;
     justify-content: center;
 
 }
@@ -181,7 +179,7 @@ h2{
     background: #F2F2F2;
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 12px;
     margin-top: 15px;
     border-radius: 5px;
     color: #4D4D4D;
@@ -189,5 +187,5 @@ h2{
 
 .list_item_titles p{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
 }

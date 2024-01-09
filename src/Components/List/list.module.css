@@ -1,7 +1,7 @@
 .list_items{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
 }
 
 .list_items:not(:last-child){
@@ -12,14 +12,14 @@
 .list_items p{
     /* margin-right: 0px; */
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     min-width: 12rem;
 }
 
 .success::before{
     content: " ";
-    width: 15px;
-    height: 15px;
+    width: 11px;
+    height: 11px;
     display: inline-block;
     border-radius: 50%;
     background: #17B31B;
@@ -29,8 +29,8 @@
 
 .processing::before{
     content: " ";
-    width: 15px;
-    height: 15px;
+    width: 11px;
+    height: 11px;
     display: inline-block;
     border-radius: 50%;
     background: #999999;
@@ -40,6 +40,8 @@
 
 .list_id{
     color: #146EB4;
+    position: relative;
+    left: -2px;
 }
 
 .list_status{
@@ -58,15 +60,15 @@
 
 .list_status{
     position: relative;
-    left: -2px;
+    left: 8px;
 }
 
 .list_txn_id{
     position: relative;
-    left: -18px;
+    left: 4px;
 }
 
 .list_refund_date{
     position: relative;
-    left: 35px;
+    left: 55px;
 }
