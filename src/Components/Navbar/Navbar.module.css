@@ -1,5 +1,6 @@
 .Navbar{
-    min-height: 100vh;
+    /* box-sizing: content-box; */
+    /* min-height: 100vh; */
     width:350px;
     background: #1E2640;
     color: #FFFFFF95;
