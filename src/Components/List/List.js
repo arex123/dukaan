@@ -50,7 +50,7 @@ const List = () => {
     return (item_list.map((item,index)=>(
         <div key={item.id+index} className={style.list_items}>
             <p className={style.list_id}>{item.id}</p>
-            <p className={style.list_status}>{item.status==1?<span className={style.success}>Successful</span>:<span className={style.processing}>Processing</span>  }</p>
+            {item.status==1?<p className={`${style.list_status} ${style.success}`}>Successful</p>:<p className={`${style.list_status} ${style.processing}`}>Processing</p>  }
             <p className={style.list_txn_id}>{item.txn_id}</p>
             <p className={style.list_refund_date}>{item.refund_date}</p>
             <p className={style.list_order_amt}>{item.order_amt}</p>

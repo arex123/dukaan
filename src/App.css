@@ -1,22 +1,19 @@
-*,
-*::after,
-*::before
+*
 {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-html{
-    /* font-size: 62.5%; */
-}
-
 .App{
     display: flex;
+    position: relative;
 }
+
 .container{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    border: none;
+    /* height: 100%; */
     width: 100%;
 }
